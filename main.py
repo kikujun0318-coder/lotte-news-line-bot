@@ -45,3 +45,4 @@ for feed in FEEDS:
 
 with open(seen_file, 'w', encoding='utf-8') as f:
     f.write('\n'.join(new_seen))
+send_line("テスト通知です！ロッテBot動作確認")
